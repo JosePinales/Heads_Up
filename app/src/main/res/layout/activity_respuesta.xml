@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000554"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/partida"
+        android:layout_width="323dp"
+        android:layout_height="127dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Final de la partida"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cartas"
+        android:layout_width="362dp"
+        android:layout_height="437dp"
+        android:layout_above="@+id/jugar"
+        android:layout_below="@+id/partida"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginBottom="35dp"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/jugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:onClick="volver"
+        android:text="Volver a jugar" />
+
+
+</RelativeLayout>
